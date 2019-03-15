@@ -1,6 +1,7 @@
 # Freelancer Service
 > Represents service for freelancers that simplify search for employees and employers.
-The main goal of the system is to make reading or purchase of any books more comfortable, simpler and more profitable. The service provides users and guests with a variety of books, which they can read and download for free or not for free. A system allows users to leave feedback. 
+
+> The main goal of the system is to make job finding and offering more comfortable, simpler and more profitable. The service provides users and guests with a variety of work(worker) offers, where users can communicate with each other. 
 
 **Roles:** guest, worker, employer and admin.
 
