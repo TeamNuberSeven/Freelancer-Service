@@ -14,11 +14,15 @@
     <Content Remove="Views\Home\About.cshtml" />
     <Content Remove="Views\Home\Contact.cshtml" />
     <Content Remove="Views\Home\Privacy.cshtml" />
+    <Content Remove="wwwroot\full-width-light\dist\img\workaround-logo-rec.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Data\Data.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Account\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\full-width-light\dist\img\workaround-logo-rec.png" />
   </ItemGroup>
 </Project>

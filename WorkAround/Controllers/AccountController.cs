@@ -10,6 +10,11 @@ namespace WorkAround.Controllers
             return View();
         }
 
+        public IActionResult Signup()
+        {
+            return View();
+        }
+
         public ActionResult Validate()
         {
            return Json(new { status = true, message = "Login Successfull!" });
