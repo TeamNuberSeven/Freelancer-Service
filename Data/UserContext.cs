@@ -6,8 +6,10 @@ namespace Data
 {
     public class UserContext : DbContext
     {
-        public UserContext(DbContextOptions options) : base(options) {  }
+        public UserContext(DbContextOptions options) : base(options) { Database.EnsureCreated();  }
 
-        public DbSet<User> Users { get; set; }
+    
+
+    public DbSet<User> Users { get; set; }
     }
 }
